@@ -5,19 +5,26 @@ public class Objective4Lab1 {
 
     Scanner keyboard = new Scanner(System.in);
 
+// Setting String variables.
+    String fname = "";
+    String lname = "";
+    String favoriteAnimal = "";
+    String favoriteFood = "";
+    String favoriteSong = "";
+
 // Asking for user input: first name, last name, favorite animal, food, and song.
     System.out.println("What is your first name?");
-    String fname = keyboard.nextLine();
+    fname = keyboard.nextLine();
     System.out.println("What is your last name?");
-    String lname = keyboard.nextLine();
+    lname = keyboard.nextLine();
     System.out.println("What is your favorite animal?");
-    String favoriteAnimal = keyboard.nextLine();
+    favoriteAnimal = keyboard.nextLine();
     System.out.println("What is your favorite food?");
-    String favoriteFood = keyboard.nextLine();
+    favoriteFood = keyboard.nextLine();
     System.out.println("What is your favorit song?");
-    String favoriteSong = keyboard.nextLine();
+    favoriteSong = keyboard.nextLine();
 
-// printing out the user input.
+// Printing out the user input.
     System.out.println("My name is " + fname + " " + lname + ".");
     System.out.println("My favorite animal is the " + favoriteAnimal + ".");
     System.out.println("My favorite food is " + favoriteFood + ".");
