@@ -5,7 +5,7 @@ public class Objective4Lab3 {
 
     int birthYear, age, currentYear;
 
-    birthYear = 1;
+    birthYear = 0;
     currentYear = 2020;
 
     Scanner input = new Scanner(System.in);
