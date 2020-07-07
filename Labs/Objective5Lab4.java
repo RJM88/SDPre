@@ -10,7 +10,7 @@ public class Objective5Lab4 {
     System.out.println("Please enter a number: ");
     num = kb.nextInt();
 
-    //Setting logic conditions. Looking if user input us odd or even.
+    //Setting logic conditions. Looking if user input is odd or even.
     if(num % 2 == 0) {
       System.out.println("The number is even.");
     }
