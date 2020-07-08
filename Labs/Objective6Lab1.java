@@ -7,7 +7,7 @@ public class Objective6Lab1 {
     //Setting switch conditions: 12 diffrent cases.
     switch (month) {
       case 1:
-        System.out.println("sJanuary");
+        System.out.println("January");
         break;
       case 2:
         System.out.println("February");
