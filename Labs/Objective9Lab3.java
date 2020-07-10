@@ -33,6 +33,7 @@ public class Objective9Lab3 {
         break;
       }
     }
+    scanner.close();
   }
 
   //Method will print the Menu.
